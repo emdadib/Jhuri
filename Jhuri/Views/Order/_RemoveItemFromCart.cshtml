@@ -1,0 +1,10 @@
+﻿@model Jhuri.ViewModels.Public.AddToCartViewModel
+<form asp-action="RemoveItemFromCart" role="form">
+    @Html.Partial("_ModalHeader", new ModalHeader { Heading = "Remove Product" })
+
+    <div class="modal-body form-horizontal">
+        Are you want to remove <strong>@Model.ProductName</strong>
+    </div>
+
+    @Html.Partial("_ModalFooter", new Modalfooter { SubmitButtonText = "Remove" })
+</form>

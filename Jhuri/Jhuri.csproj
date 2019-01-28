@@ -5,11 +5,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CodingUpAStorm.VaderSharp" Version="1.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="StackifyMiddleware" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Location\" />
+    <Folder Include="Views\Users\" />
+    <Folder Include="Views\Units\" />
+    <Folder Include="Views\Status\" />
+    <Folder Include="Views\Role\" />
+    <Folder Include="Views\ProductStock\" />
+    <Folder Include="Views\ProductMenual\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\PaymentMethod\" />
+    <Folder Include="Views\OrdersAdmin\" />
+    <Folder Include="Views\Order\" />
+    <Folder Include="wwwroot\uploads\ProductManuals\" />
   </ItemGroup>
 
 </Project>

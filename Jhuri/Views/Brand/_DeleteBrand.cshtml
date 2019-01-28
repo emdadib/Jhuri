@@ -1,0 +1,12 @@
+﻿@using Jhuri.BootstrapModal
+
+
+<form asp-action="Delete" role="form">
+    @Html.Partial("_ModalHeader", new ModalHeader { Heading = "Delete Brand" })
+
+    <div class="modal-body form-horizontal">
+        Are you want to delete <strong>@Model?</strong>
+    </div>
+
+    @Html.Partial("_ModalFooter", new Modalfooter { SubmitButtonText = "Delete" })
+</form>

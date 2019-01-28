@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Jhuri.ViewModels.CategoryViewModel>
+
+
+@foreach (var item in Model)
+{
+
+    <div class="col-md-4">
+        <b>@item.Name</b>
+        <p>@item.Description</p>
+
+        <ol></ol>
+    </div>
+
+}
